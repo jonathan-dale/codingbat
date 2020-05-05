@@ -4,11 +4,24 @@
  */
 
 public class stringX {
-    
+    public String stringX(String str) {
+        if (str.length() < 2) return str;
+        String result = str.substring(0, 1);
+        for (int i = 1; i < str.length() - 1; i++) {
+            if (str.substring(i, i + 1).equals("x")) {
+                continue;
+            } else {
+                result += str.substring(i, i + 1);
+            }
+        }
+        result += str.substring(str.length() - 1);
+        return result;
+    }
 }
+
 /**
 
-This way is much more complicated....
+This way is a little more complicated...use char array
 public class stringX {
     public String stringX(String str) {
         if (str.length() < 2) {
