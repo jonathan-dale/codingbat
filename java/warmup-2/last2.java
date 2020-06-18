@@ -5,7 +5,6 @@
  */
 public class last2 {
     public int last2(String str) {
-
         int count = 0;
 
         if (str.length() <= 2) {
