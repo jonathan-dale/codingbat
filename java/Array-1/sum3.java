@@ -3,6 +3,7 @@
  */
 
 
+
 public class sum3 {
     public int sum3(int[] nums) {
         int result = 0;
