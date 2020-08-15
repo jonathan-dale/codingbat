@@ -8,7 +8,7 @@
 
 public class endOther {
     public boolean endOther(String a, String b) {
-        a = a.toLowerCase();
+       a = a.toLowerCase();
         b = b.toLowerCase();
         // which one is bigger
         String bigger = (a.length() > b.length()) ? a : b;
